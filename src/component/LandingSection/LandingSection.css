@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .avatar {
+    width: 200px;
+    /* height: 200px; */
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .landingSectionFile {
+    width: 100vw;
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .frontend {
+    color: gold;
+    padding: 14px;
+  }
+  
+  @keyframes scaleUp {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: scaleUp 1s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .frontend,
+  h3 {
+    animation: fadeIn 1s ease-out;
+  }
+  .zakir{
+    color: goldenrod;
+  }
+  .react{
+    color: gold;
+    text-decoration: underline;
+
+  }

@@ -1,0 +1,19 @@
+/* ScrollToTopButton.css */
+
+.scrollTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scrollTopButton:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contactForm{
+    background-color: rgb(187, 188, 189);
+    width: 80vw;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 15px ;
+    padding: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 14px;
+    
+}
+.formInput{
+    margin: 10px;
+    border: none;
+    height: auto;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%;
+}
+.formInputTextArea {
+    width: 80%;
+    min-height: 80px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.formBtn{
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: gold;
+    text-align: center;
+    /* display: block; */
+    margin: 10px auto;
+    border-radius: 10px;
+    min-width: 80px;
+
+}
+.formBtn:hover{
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+}

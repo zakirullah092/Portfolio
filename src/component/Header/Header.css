@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.headerFile{
+    width: 100vw;
+    height: auto;
+    background-color:lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.headerUl{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.headerUl li{
+    padding:14px;
+
+}
+
+.headerUl li a{
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px;
+    color: gold;
+}
+
+.headerUl li:hover{
+
+}
+.headerUl li:hover {
+    background-color: black;
+    color:gold;
+
+}
